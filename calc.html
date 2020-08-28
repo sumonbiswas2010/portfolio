@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Calculator Project</title>
+        <link rel="stylesheet" type="text/css" href="calc.css">
+        <script src="calc.js"></script>
+       
+    </head>
+
+    <body>
+        <p id="head"> 
+            Name: Sumon Biswas <br>ID: 181002087 <br>
+            The Calculator with HTML, CSS & JavaScript<br>
+            You can calculate any operations here. <br>
+            Also compatible with keyboard inputs. <br>
+            <a style="font-size: 15px;" href="#mannual">Manual for this Calculator</a>
+        </p>
+        <div id="mainDiv">
+        <form class="calc" name="calc">
+            <b class="num" onclick="clr()">C</b>
+            <b class="num" onclick="backs()"><</b>
+            <input class="textview" name="textview" type="text" value="0" disabled></b>
+            <b class="num" onclick="root()">&#8730</b>
+            <b class="num" onclick="mem()">M</b>
+            <b class="num" onclick="mplus()">M+</b>
+            <b class="num" onclick="mminus()">M-</b>
+            <b class="num" onclick="show(7)">7</b>
+            <b class="num" onclick="show(8)">8</b>
+            <b class="num" onclick="show(9)">9</b>
+            <b class="num" onclick="opt('+')">+</b>          
+            <b class="num" onclick="show(4)">4</b>
+            <b class="num" onclick="show(5)">5</b>
+            <b class="num" onclick="show(6)">6</b>
+            <b class="num" onclick="opt('-')">-</b>
+            <b class="num" onclick="show(1)">1</b>
+            <b class="num" onclick="show(2)">2</b>
+            <b class="num" onclick="show(3)">3</b>
+            <b class="num" onclick="opt('*')">*</b>
+            <b class="num" onclick="show(0)">0</b>
+            <b class="num" onclick="show('.')">.</b>
+            <b class="num" onclick="cal()">=</b>
+            <b class="num" onclick="opt('/')">/</b>             
+        </form>
+        </div>
+        <div id="mannual">
+            <p id="yo">
+                *This calculator works with keyboard inputs too. Type any number keys to display that number.
+                <br>*You can both use fullstop or decimal point(Delete Key) for decimal point input.
+                <br>*Press ESC to reset which works as like C button. Press backspace to remove last digit.
+                <br>*Press Enter key for result which works like = button on calculator.
+            </p>
+            <ol type="a">
+                <li>Initially input field shows 0</li>
+                <li>If you click on 3, the input field displays 3</li>
+                <li>Then click on +, still displays 3</li>
+                <li>Then click on 4, the field displays 4</li>
+                <li>Then click on 5, the field displays 45</li>
+                <li>Then click on = , the field displays result, 48</li>
+                <li>If you click on C, the input field again shows 0</li>
+                <li>It means you can do every basic mathematical calculation with it</li>
+            <p style="font-size: 15px;" id="ex">Extra Features
+            </ol>
+                    <ol type="i">
+                        <li>Can operate with keyboard inputs.</li>
+                        <li>Input any numbers then &#8730, it displays the square root of that number.</li>
+                        <li>You can save on memory and add or subtract froim it.</li>
+                        <li>You can also go back after inputting any number (<). It removes the last digit.</li>
+                        <li>You can do any operations with floating numbers.</li>
+                    </ol>
+            </p>
+        </div>
+    </body>
+</html>

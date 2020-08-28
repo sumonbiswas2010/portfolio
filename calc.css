@@ -1,0 +1,72 @@
+body
+{
+    margin:20px;
+    font-size: 30px;
+    background-color: black;
+}
+#head
+{
+    color: orange;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+a
+{
+    color: white;
+}
+.calc
+{
+    display: flex;
+    color: orangered;
+    width: 300px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 15px;
+    margin: 0 auto;
+    background-color: orange;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.calc .textview
+{
+    text-align: end;
+    font-size: 30px;
+    width: 130px;
+    height: 40px;
+}
+.num
+{
+    width: 50px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 45%;
+}
+b.num:hover
+{
+    background-color: blue;
+    cursor: grab;
+}
+#mannual
+{
+    color: orangered;
+    font-size: 10px;
+    margin-top: 100px;
+}
+#mannual p
+{
+    text-align: center;
+}
+#yo
+{
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 15px;
+}
+#ex
+{
+    font-size: 15px;
+    width: 500px;
+}

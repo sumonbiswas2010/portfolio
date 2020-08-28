@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Portfolio of Sumon Biswas</title>
+	<link id="icon" rel="icon" href="Media/1.gif">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div id="topbar">
+		<a class="topbar-button" href="#about">About</a>
+		<a class="topbar-button" href="#qualification">Qualifications</a>
+		<a class="topbar-button" href="#contact2">Contact</a>
+		<a class="topbar-button" href="#portfolio">Portfolio</a>
+	</div>
+	<a href="#about"><img id="up" alt="Up Arrow" src="Media/up-arrow.png"></img></a>
+	<div id="about">
+		<p id="about-info">Sumon Biswas<br>A Professional Web Developer</p>
+	</div>
+
+	<div id="about2">
+		<p>Name: Sumon Biswas</p>
+		<p>ID: 181002087</p>
+		<p>Birthdate: 15 July, 1998</p>
+		<p>Educational Background: Graduate on Computer Science & Engineering</p>
+		<p>Objective: Spread Happiness</p>
+		<a href="calc.html">The Calculator Project</a>
+		<table border="1" align="center">
+			<th>Degree</th>
+			<th>Passing Year</th>
+			<th>Institution</th>
+			<th>Board</th>
+			<th>Result</th>
+			<tr>
+				<td>JSC</td>
+				<td>2011</td>
+				<td>Bagerhat Government High School</td>
+				<td rowspan="3">Jessore</td>
+				<td>GPA 5.00</td>
+			</tr>
+			<tr>
+				<td>SSC</td>
+				<td>2014</td>
+				<td>Bagerhat Government High School</td>
+				<td>GPA 5.00</td>
+			</tr>
+			<tr>
+				<td>HSC</td>
+				<td>2016</td>
+				<td>Government PC College, Bagerhat</td>
+				<td>GPA 4.75</td>
+			</tr>
+			<tr>
+				<td>CSE</td>
+				<td>2021</td>
+				<td>Green University of Bangladesh</td>
+				<td>N/A</td>
+				<td>Ongoing</td>
+			</tr>
+			<tr>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+		</table>
+	</div>
+	<a href="https://m.me/sumon.com.bd"><img id="chat" src="Media/messenger.png"></img></a>
+	<div id="qualification">
+		<h2>I'm an expert of </h2>
+		<ul>
+			<li>Java</li>
+			<li>C</li>
+			<li>Python</li>
+			<li>Javascript</li>
+			<li>MYSQL</li>
+			<li>Database</li>
+			<li>HTML5</li>
+			<li>CSS3</li>
+			<li>PHP</li>
+			<li>Networking</li>
+		</ul>
+	</div>
+	<div id="contact2">
+		<h2>Enter Details to Contact</h2>
+		<form autocomplete="on">
+			<label for="fname">First Name:*</label>
+			<input type="text" id="fname" name="fname" required> <br>
+			<label for="lname">Last Name:*</label>
+			<input type="text" id="lname" name="lname" required> <br>
+			<label for="gender">Gender:</label>
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label>
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label> <br>
+			<label for="email">Email:*</label>
+			<input type="email" id="email" name="email" required><br>
+			<label for="phone">Phone number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" pattern="[0-9]{11}"><br>
+			<label for="date">Date:</label>
+			<input type="date" id="date" name="date"><br>
+			<label for="cars">What do you want?*</label>
+			<select name="services" id="services" required>
+				<option value="" disabled selected>Select a Service From Here</option>
+  				<optgroup label="Designing">
+    				<option value="HTML">HTML</option>
+    				<option value="CSS">CSS</option>
+ 				</optgroup>
+  				<optgroup label="Developing">
+    				<option value="Javascript">Javascript</option>
+    				<option value="Python">Python</option>
+  				</optgroup>
+			</select> <br>
+			<label for="file">Upload a File:</label>
+			<input type="file" id="file" name="file"> <br>
+			<label for="rating">Rate Me (Between 1 to 10):</label>
+			<input type="number" id="rating" name="rating" required value=10 min="1" max="10"><br>
+			<label for="description">Description:</label>
+			<textarea id="description" name="description" rows="4" cols="40" placeholder="Write a description here"></textarea>
+			<br>
+			<input type="submit">
+			<input type="reset">
+		</form>
+		<p id="requiredfooter">* Fields are required</p>
+	</div>
+	<div id="portfolio">
+		<div class="box">
+			<img src="Media/calc.gif"></img>
+			<a style="margin:10px; color:black; text-align: center; vertical-align: middle;" href="calc.html">Made an interesting calculator using HTML, CSS and JavaScript (Click Me)</a>
+			</div>
+		<div class="box">
+			<img id="boximg1" src="https://scontent.fjsr5-1.fna.fbcdn.net/v/t31.0-8/27907489_1792959797423552_2473920865348770222_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_eui2=AeEzQ0X70CVce2yKHy_n2w8tbMBR-b6T2glswFH5vpPaCaRZTEHmTpixKOKprgB5NX2T94OCAwdCGbGiwsAat5G-&_nc_ohc=sbF7y2EC1lcAX-jVKvx&_nc_ht=scontent.fjsr5-1.fna&oh=e001af8eb1d2bedc3ee6b2fabd6a5412&oe=5F5E696A"></img>
+			<p>Placed 2nd Position on guitar playing at Annual Cultural Competition - 2018</p>
+		</div>
+		<div class="box">
+			<img src="Media/port.gif"></img>
+			<p>Made a portfolio with many features</p>
+		</div>
+	</div>
+	<p id="mobile">Horray, You are in Mobile Mode</p>
+	<p id="tab">Horray, You are in Tab Mode</p>
+	<p id="desktop">Horray, You are in Desktop Mode</p>
+	<div id="contact">
+		<h2>Developer Contact:<br>Click on logo to go</h2>
+		<div id="flexcontact">
+		<div><b>Facebook:</b>
+		<a class="info_link" target="_blank" href="https://facebook.com/sumon.com.bd"><img class="info" alt="Facebook Logo" src="Media/facebook.png"></img></a>
+		</div>
+		<div>
+		<b>Phone Call:</b>
+		<a class="info_link" target="_blank" href="tel:+8801672836364"><img class="info" alt="Phone Logo" src="Media/phone.png"></img></a>
+		</div>
+		<div>
+		<b>Gmail:</b>
+		<a class="info_link" target="_blank" href="mailto: sumonbiswas2010@gmail.com?Subject=Contact Sumon"> <img class="info" alt="Gmail with Subject" src="Media/gmail.png"></img></a>
+		</div>
+		<div>
+		<b>GitHub:</b>
+		<a class="info_link" target="_blank" href="https://github.com/sumonbiswas2010"> <img class="info" alt="GitHub Logo" src="Media/Github.png"></img></a><br>
+		<div>
+		</div>
+	</div>
+	<div id="footer">
+		© Sumon Biswas Portfolio ID: 181002087 Section: DB
+	</div>
+	</div>
+	</div>
+</body>
+</html>

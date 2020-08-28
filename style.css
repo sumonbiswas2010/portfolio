@@ -1,0 +1,317 @@
+body
+{
+	font-family: Roboto, sans-serif;
+	margin: 0px;
+}
+#topbar
+{
+	width: 100%;
+	height: 35px;
+	background-color: black;
+	position: fixed;
+	text-align: center;
+	padding-top: 15px;
+	background-image: url("Media/3.gif");
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	background-position: right;
+}
+.topbar-button
+{
+	font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	scroll-behavior: smooth;
+}
+a.topbar-button:hover
+{
+	vertical-align: middle;
+	color: red;
+	padding-top: 20px;
+	transition: color .5s ease-in-out;
+}
+a.topbar-button:current
+{
+	color: blueviolet;
+}
+#about
+{
+	width: 100%;
+	height: 545px;
+	padding-top: 55px;
+	background-color: rebeccapurple;
+	background-image: url("Media/4.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	display: table;		
+}
+#about-info
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#about2
+{
+	margin: 0;
+	padding: 10px;
+	background-color: black;
+	text-align: center;
+	font-weight: bolder;
+	color: wheat;
+	font-size: 20px;
+}
+th 
+{
+	height: 50px;
+}
+table
+{
+	margin-top: 20px;;
+}
+#about th, td
+{
+	border-bottom: 1px solid #ddd;
+	color: blanchedalmond;
+	border: 1px solid white;
+	padding: 8px;
+}
+#about table
+{
+	border-collapse: collapse;
+}
+td:hover, th:hover
+{
+	font-size: large;
+}
+
+#qualification
+{
+	height: 550px;
+	padding-top: 65px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	padding-left: 60px;
+	background-image: url("Media/mypic.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: color .5s ease-in-out;
+}
+#chat
+{
+	position: fixed;
+	right: 20px;
+	bottom: 35px;
+	width: 50px;
+}
+
+#contact
+{
+	text-align: center;
+	padding: 10px;
+	background-color: royalblue;
+	color: white;
+	height: auto;
+	margin-bottom: 20px;
+
+}
+#flexcontact
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	height: auto;
+}
+
+.info
+{
+	vertical-align: middle;
+	border-radius: 20%;
+	padding: 5px;
+	height: 30px;
+}
+.info_link
+{	
+	text-align: center;
+	margin: 5px;
+}
+
+#contact2
+{
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	background-image: url(Media/contact-us2.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#contact2 h2
+{
+	padding-top: 45px;
+}
+#contact2 input
+{
+	margin: 5px;
+}
+#requiredfooter
+{
+	text-align: left;
+}
+
+#description
+{
+	vertical-align: middle;
+}
+#up
+{
+	height: 50px;
+	position: fixed;
+	bottom: 25px;
+	left: 20px;
+}
+#footer
+{
+	position: fixed;
+	bottom: 0px;
+	padding: 10px;
+	color: burlywood;
+	height: 13px;
+	vertical-align: middle;
+	background-color: black;
+	text-align: center;
+	font-size: 15px;
+	width: 100%;
+	opacity: 40%;
+}
+#portfolio
+{
+	border: 2px solid black;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #F5F5F5;
+	font-weight: bolder;
+	height: auto;
+	height: 300px;
+}
+.box
+{
+	flex-basis: 150px;
+	height: 150px;
+	display: flex;
+	flex-flow: column;
+	padding: 10px;
+
+}
+
+.box p
+{
+	padding: 10px;
+	text-align: center;
+}
+.box img
+{
+	width: 300px;
+}
+#mobile, #tab, #desktop
+{
+	font-variant: small-caps;
+	text-align: center;
+	font-weight: bold;
+}
+#mobile, #tab
+{
+	display: none;
+}
+@media screen and (max-width: 768px)
+{
+    table
+    {
+        font-size: 10px;
+    }
+	#portfolio
+	{
+		border: 2px solid black;
+		display: flex;
+		justify-content: space-around;
+		padding: 10px;
+		height: auto;
+		flex-direction: column;
+	}
+	.box
+	{
+		flex-basis: 150px;
+		height: 200px;
+		padding: 10px;
+		flex-direction: row;
+	}
+	.box img
+	{
+   		height: 150px;
+		width: 200px;
+	}
+	#flexcontact
+	{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		margin: 50px;
+	}
+	.info
+	{
+		height: 50px;
+	}
+	.topbar-button
+	{
+		padding: 5px;
+		font-size: 2vh;
+	}
+	#topbar
+	{
+		background-image: none;
+	}
+	#footer
+	{
+		position: fixed;
+		bottom: 0px;
+		padding: 10px;
+		color: burlywood;
+		height: 13px;
+		vertical-align: middle;
+		background-color: black;
+		text-align: center;
+		font-size: 15px;
+		width: auto;
+		justify-content: center;
+		opacity: 100%;
+	}
+	#desktop, #tab
+	{
+		display: none;
+	}
+	#mobile
+	{
+		display: block;
+	}
+}
+@media screen and (min-width: 768px) and (max-width : 900px)
+{
+	.box img
+	{
+		width: 220px;
+	}
+	#desktop
+	{
+		display: none;
+	}
+	#tab
+	{
+		display: block;
+	}
+}
